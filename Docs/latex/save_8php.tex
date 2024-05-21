@@ -1,0 +1,32 @@
+\doxysection{D\+:/\+Desktop/games and programs/code/src/save.php File Reference}
+\hypertarget{save_8php}{}\label{save_8php}\index{D:/Desktop/games and programs/code/src/save.php@{D:/Desktop/games and programs/code/src/save.php}}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{save_8php_a8abe176bc41afd728f32ba8c506cbd98}{\$r}} = random\+\_\+int(1000, 9999)
+\item 
+\mbox{\hyperlink{save_8php_aa1bfbd27060176201b271918dff57e8f}{\$file}} = fopen("{}data"{} . \$r . "{}.txt"{}, "{}w"{})
+\item 
+\mbox{\hyperlink{save_8php_aafd3010c1ef87e07032e04966af858bd}{\$txt}} = "{}lat\+: "{} . \$\+\_\+\+GET\mbox{[}"{}lat"{}\mbox{]} . "{}\textbackslash{}nlong\+: "{} . \$\+\_\+\+GET\mbox{[}"{}long"{}\mbox{]} . "{}\textbackslash{}n\+IP\+: "{} . \$\+\_\+\+SERVER\mbox{[}"{}REMOTE\+\_\+\+ADDR"{}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{save_8php_aa1bfbd27060176201b271918dff57e8f}\index{save.php@{save.php}!\$file@{\$file}}
+\index{\$file@{\$file}!save.php@{save.php}}
+\doxysubsubsection{\texorpdfstring{\$file}{\$file}}
+{\footnotesize\ttfamily \label{save_8php_aa1bfbd27060176201b271918dff57e8f} 
+\$file = fopen("{}data"{} . \$r . "{}.txt"{}, "{}w"{})}
+
+\Hypertarget{save_8php_a8abe176bc41afd728f32ba8c506cbd98}\index{save.php@{save.php}!\$r@{\$r}}
+\index{\$r@{\$r}!save.php@{save.php}}
+\doxysubsubsection{\texorpdfstring{\$r}{\$r}}
+{\footnotesize\ttfamily \label{save_8php_a8abe176bc41afd728f32ba8c506cbd98} 
+\$r = random\+\_\+int(1000, 9999)}
+
+\Hypertarget{save_8php_aafd3010c1ef87e07032e04966af858bd}\index{save.php@{save.php}!\$txt@{\$txt}}
+\index{\$txt@{\$txt}!save.php@{save.php}}
+\doxysubsubsection{\texorpdfstring{\$txt}{\$txt}}
+{\footnotesize\ttfamily \label{save_8php_aafd3010c1ef87e07032e04966af858bd} 
+\$txt = "{}lat\+: "{} . \$\+\_\+\+GET\mbox{[}"{}lat"{}\mbox{]} . "{}\textbackslash{}nlong\+: "{} . \$\+\_\+\+GET\mbox{[}"{}long"{}\mbox{]} . "{}\textbackslash{}n\+IP\+: "{} . \$\+\_\+\+SERVER\mbox{[}"{}REMOTE\+\_\+\+ADDR"{}\mbox{]}}
+
